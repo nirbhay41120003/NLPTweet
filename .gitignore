@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Python virtual environments
+.venv/
+.conda/
+
+# Python cache and tooling
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local runtime artifacts
+*.log
+db.sqlite3
+
+# Large local data files
+data/*.csv

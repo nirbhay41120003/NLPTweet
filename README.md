@@ -13,7 +13,7 @@ This repository contains:
 
 ## Prerequisites
 
-- macOS or Linux shell
+- macOS, Linux, or Windows
 - Conda installed
 - Internet access on first run (to fetch base RoBERTa files if not cached)
 
@@ -32,12 +32,21 @@ conda create -n NLPtweet python=3.10 -y
 conda activate NLPtweet
 ```
 
+On Windows (Anaconda Prompt), use the same commands above.
+
 ## 2. Install Dependencies
 
 From repository root:
 
 ```bash
-cd /Users/nirbhay/Desktop/NLPTweet/nlptweet_django
+cd nlptweet_django
+python -m pip install -r requirements.txt
+```
+
+On Windows (PowerShell):
+
+```powershell
+cd .\nlptweet_django
 python -m pip install -r requirements.txt
 ```
 
@@ -106,3 +115,4 @@ Example response:
   - Attention pooling
   - 2-class classifier
 - Inference uses exported files from Model for Preview3.
+- Code uses Python pathlib-based path handling, so it works across operating systems.

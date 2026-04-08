@@ -2,6 +2,8 @@
 
 This Django project serves inference for your saved sentiment model from `Model for Preview3`.
 
+Platform support: macOS, Linux, and Windows.
+
 ## What it includes
 
 - Web frontend form for tweet sentiment prediction
@@ -23,17 +25,31 @@ This Django project serves inference for your saved sentiment model from `Model 
 ## Setup
 
 1. Create/activate a Python environment.
+
+  Example with conda:
+
+  ```bash
+  conda create -n NLPtweet python=3.10 -y
+  conda activate NLPtweet
+  ```
+
 2. Install requirements:
 
-   pip install -r requirements.txt
+  ```bash
+  python -m pip install -r requirements.txt
+  ```
 
 3. Run migrations:
 
-   python manage.py migrate
+  ```bash
+  python manage.py migrate
+  ```
 
 4. Start the server:
 
-   python manage.py runserver
+  ```bash
+  python manage.py runserver
+  ```
 
 ## Usage
 
@@ -63,3 +79,4 @@ Example response:
 
 - The app expects this folder at workspace root: `Model for Preview3`
 - On first run, `AutoModel.from_pretrained("roberta-base")` may download base RoBERTa weights if not already cached.
+- The project uses cross-platform Python path handling and is not macOS-only.

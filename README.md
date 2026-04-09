@@ -7,6 +7,24 @@ This repository contains:
 - A trained sentiment model exported from notebook work
 - A Django web app for frontend + backend inference
 
+Classification Report
+==================================================
+              precision    recall  f1-score   support
+
+    Negative       0.92      0.93      0.93      2496
+    Positive       0.93      0.92      0.93      2504
+
+    accuracy                           0.93      5000
+   macro avg       0.93      0.93      0.93      5000
+weighted avg       0.93      0.93      0.93      5000
+
+
+Accuracy: 0.9262
+Precision: 0.9303
+Recall: 0.9217
+F1-Score: 0.9260
+
+
 ## Project Layout
 
 - preview3.ipynb: model training notebook

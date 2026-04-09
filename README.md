@@ -1,4 +1,6 @@
-# NLPTweet Sentiment Inference (Django)
+# NLPTweet Sentiment 
+
+Quick Link To check the App: HuggingFace: https://huggingface.co/spaces/Nirbhay4/nlptweet-sentiment-analyzer
 
 This repository contains:
 

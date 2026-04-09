@@ -15,8 +15,8 @@ Classification Report
     Positive       0.93      0.92      0.93      2504
 
     accuracy                           0.93      5000
-   macro avg       0.93      0.93      0.93      5000
-weighted avg       0.93      0.93      0.93      5000
+    macro avg       0.93      0.93      0.93      5000
+    weighted avg       0.93      0.93      0.93      5000
 
 
 Accuracy: 0.9262
